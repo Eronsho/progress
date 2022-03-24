@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Progress</title>
+  </head>
+  <body>
+     <div class="progres">
+  <div class="progres__title">Progress</div>
+  <div class="progres__container" id="root">
+    <div class="progress-block">
+      <svg
+        class="progress-block__circle-svg circle-svg"
+        width="200"
+        height="200"
+      >
+        <circle
+          class="circle-svg__background"
+          r="90"
+          cx="100"
+          cy="100"
+        ></circle>
+        <circle class="circle-svg__fill" r="90" cx="100" cy="100"></circle>
+      </svg>
+    </div>
+
+    <div class="progress-block-control">
+      <label class="progress-block-control__label">
+        <input
+          class="progress-block-control__input"
+          type="number"
+          size="3"
+          min="0"
+          max="100"
+          value="0"
+        />Value</label
+      >
+
+      <label class="progress-block-control__checkbox checkbox">
+        <input
+          type="checkbox"
+          class="checkbox__input checkbox__input_animated"
+        />
+        <div class="checkbox__text">Animate</div>
+      </label>
+
+      <label class="progress-block-control__checkbox checkbox">
+        <input type="checkbox" class="checkbox__input checkbox__input_hidden" />
+        <div class="checkbox__text">Hide</div>
+      </label>
+    </div>
+  </div>
+</div>
+ <footer>Footer</footer>
+
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
